@@ -39,7 +39,6 @@
                 "tamasfe.even-better-toml"
             ],
             "settings": {
-                "python.defaultInterpreterPath": "/root/.local/share/uv/python",
                 "[python]": {
                     "editor.defaultFormatter": "charliermarsh.ruff",
                     "editor.codeActionsOnSave": {
