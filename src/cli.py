@@ -3,10 +3,11 @@ from loguru import logger
 
 
 @click.group()
-def cli():
-    pass
+def cli() -> None:
+    """Command Line Interface group."""
 
 
 @cli.command()
-def tr() -> None:
-    logger.info("hi, there")
+def test() -> None:
+    """Test command."""
+    logger.info("Hi, there!")

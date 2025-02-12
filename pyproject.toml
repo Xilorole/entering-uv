@@ -1,5 +1,5 @@
 [project]
-name = "src"
+name = "entering-uv"
 version = "0.1.0"
 description = "docs for entering uv"
 readme = "README.md"
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-src = "src.cli:cli"
+cli = "src.cli:cli"
 
 [build-system]
 requires = ["setuptools"]
