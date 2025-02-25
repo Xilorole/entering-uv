@@ -8,5 +8,5 @@ def cli():
 
 
 @cli.command()
-def tr() -> None:
+def hello() -> None:
     logger.info("hi, there")
