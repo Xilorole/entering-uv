@@ -163,3 +163,5 @@ cython_debug/
 !.db/.gitkeep
 .env*
 !.env.template
+
+tool/__version__.py
