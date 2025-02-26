@@ -8,7 +8,8 @@
         "PYTHONUNBUFFERED": "True",
         "UV_LINK_MODE":"copy",
         "JUPYTER_PLATFORM_DIRS":"1",
-        "VIRTUAL_ENV_DISABLE_PROMPT":"1"
+        "VIRTUAL_ENV_DISABLE_PROMPT":"1",
+        "STARSHIP_CONFIG":"/home/vscode/starship.toml"
     },
     "features": {
         "ghcr.io/dhoeric/features/hadolint:1": {},
