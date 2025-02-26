@@ -1,5 +1,5 @@
 [project]
-name = "src"
+name = "tool"
 version = "0.1.0"
 description = "docs for entering uv"
 authors = [{ name = "Xilorole" }]
@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.scripts]
-tool = "src.cli:cli"
+tool = "tool.cli:cli"
 
 [tool.uv]
 package = true
