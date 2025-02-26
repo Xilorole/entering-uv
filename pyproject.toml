@@ -2,25 +2,16 @@
 name = "entering-uv"
 version = "0.1.0"
 description = "docs for entering uv"
+authors = [{ name = "Xilorole" }]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "click>=8.1.8",
     "loguru>=0.7.3",
-    "setuptools>=75.8.0",
-    "setuptools-scm>=8.1.0",
 ]
 
 [project.scripts]
-cli = "src.cli:cli"
+tool = "src.cli:cli"
 
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools]
-packages = ["src"]
-
-[tool.setuptools_scm]
-version_scheme = "guess-next-dev"
-local_scheme = "node-and-date"
+[tool.uv]
+package = true
