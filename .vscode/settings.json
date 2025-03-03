@@ -17,5 +17,12 @@
         {
             "file": ".vscode/.copilot-commit-message-instructions.md"
         }
-    ]
+    ],
+    "markdown.marp.themes": [
+        "https://raw.githubusercontent.com/kaisugi/marp-theme-academic/refs/heads/main/themes/academic.css",
+        "./.themes/thin-gaia.css"
+    ],
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "python.analysis.typeCheckingMode": "standard"
 }
