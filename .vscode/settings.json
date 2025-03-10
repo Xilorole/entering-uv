@@ -17,5 +17,8 @@
         {
             "file": ".vscode/.copilot-commit-message-instructions.md"
         }
+    ],
+    "markdown.marp.themes": [
+        "docs/themes/gaia-extend.css"
     ]
 }
