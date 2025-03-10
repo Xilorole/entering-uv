@@ -1,3 +1,5 @@
+import sys
+
 import click
 from loguru import logger
 
@@ -17,4 +19,9 @@ def cli() -> None:
 @cli.command()
 def hello() -> None:
     """Log a greeting message."""
-    logger.info("hi, there")
+    python_version = sys.version
+    logger.info(f"You are using Python {python_version}")
+
+
+if __name__ == "__main__":
+    cli()
